@@ -4,10 +4,11 @@ A simple RISC-V code analysis tool for checking basic errors in RISC-V assembly 
 ## Features
 - [ ] Check for unreturned labels by checking for labels that are not used as jump targets
 - [ ] Check for outside functions calling labels
-- [ ] Checking what labels are inside functions
+- [x] Checking what labels are inside functions
 - [ ] Checking register saving convention
 - [ ] Checking register argument conventions
-- and more!
+- [ ] Checking all accesses to the stack and seeing if they line up
+- and more in the future
 
 This code is based on the [CMPUT 415 GeneratorBase](https://github.com/cmput415/GeneratorBase) code.
 
