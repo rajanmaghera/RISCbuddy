@@ -1,3 +1,16 @@
+# RISCbuddy
+A simple RISC-V code analysis tool for checking basic errors in RISC-V assembly code.
+
+## Features
+- [ ] Check for unreturned labels by checking for labels that are not used as jump targets
+- [ ] Check for outside functions calling labels
+- [ ] Checking what labels are inside functions
+- [ ] Checking register saving convention
+- [ ] Checking register argument conventions
+- and more!
+
+This code is based on the [CMPUT 415 GeneratorBase](https://github.com/cmput415/GeneratorBase) code.
+
 # GeneratorBase
 The base cmake setup for the generator assignment.
 

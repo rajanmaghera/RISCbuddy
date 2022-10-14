@@ -7,3 +7,6 @@ gen/
 # Ignore CLion files
 cmake-build*/
 .idea/
+
+# Ignore private files
+/private
